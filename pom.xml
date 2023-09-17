@@ -78,4 +78,12 @@
 		</plugins>
 	</build>
 
+	<distributionManagement>
+		<repository>
+			<id>repo-id</id> <!-- Un identificador único para el repositorio -->
+			<url>https://mi-repositorio.com/maven-repo</url> <!-- URL del repositorio de implementación -->
+		</repository>
+	</distributionManagement>
+
+
 </project>
